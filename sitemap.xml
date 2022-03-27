@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://mikeynbu.github.io/Test/about/</loc>
+         <lastmod>2022-03-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://mikeynbu.github.io/Test/help/</loc>
          <lastmod>2022-03-27</lastmod>
          <changefreq>daily</changefreq>
