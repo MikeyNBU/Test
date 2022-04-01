@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
-        <link rel="canonical" href="https://mikeynbu.github.io/Test/">
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Helping Hands</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="canonical" href="https://mikeynbu.github.io/Test/pd-wai/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>My Personal Development - Helping Hands</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">Helping Hands</a>
+                <a class="navbar-brand" href="..">Helping Hands</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,15 +33,15 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem active">
-                                <a href="." class="nav-link">Home</a>
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="Blog/20220327/" class="dropdown-item">Sun 27 March 2022</a>
+    <a href="../Blog/20220327/" class="dropdown-item">Sun 27 March 2022</a>
 </li>
                                 </ul>
                             </li>
@@ -50,15 +50,15 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="Buddycheck/groups/" class="dropdown-item">Groups</a>
+    <a href="../Buddycheck/groups/" class="dropdown-item">Groups</a>
 </li>
                                     
 <li>
-    <a href="Buddycheck/setup/" class="dropdown-item">Set-up</a>
+    <a href="../Buddycheck/setup/" class="dropdown-item">Set-up</a>
 </li>
                                     
 <li>
-    <a href="Buddycheck/students/" class="dropdown-item">Students</a>
+    <a href="../Buddycheck/students/" class="dropdown-item">Students</a>
 </li>
                                 </ul>
                             </li>
@@ -67,11 +67,11 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="about/" class="dropdown-item">About</a>
+    <a href="../about/" class="dropdown-item">About</a>
 </li>
                                     
 <li>
-    <a href="help/" class="dropdown-item">Help</a>
+    <a href="../help/" class="dropdown-item">Help</a>
 </li>
                                 </ul>
                             </li>
@@ -83,16 +83,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="Blog/20220327/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -111,8 +101,16 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#welcome-to-mikeys-test-site" class="nav-link">Welcome to Mikey's test site</a>
+            <li class="nav-item" data-level="1"><a href="#my-personal-development" class="nav-link">My Personal Development</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#how-do-i-keep-up-to-date-with-future-developments" class="nav-link">How do I keep up to date with future developments?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#a-final-thought" class="nav-link">A final thought</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -120,12 +118,72 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-mikeys-test-site">Welcome to Mikey's test site</h1>
-<p>The purpose of this site is to provide a website that holds all my helpfiles, blogs, wiki's and other web based resources.</p>
-<p>It has been created using a static website generator call MKDocs (having tried to do something similar in Vimwiki and Hugo).</p>
-<p>Vimwiki is a great tool for creating a personal wiki although it is limited as static website generator. It basically turns a markdown wiki into a set of html pages.</p>
-<p>Hugo on the other hand is a very comprehensive static website generator that can be used to create a multitude of different websites and is therefore much more difficult to get up and running. (Steep learning curve).</p>
-<p>MKDocs is the perfect trade off between simplicity and versatility. It was designed for creating (and stucturing) help manuals. It is very simple to set up and is the perfect tool for creating simple websites.</p></div>
+<h1 id="my-personal-development">My Personal Development</h1>
+<p>I have a professional interest in following areas ...</p>
+<ul>
+<li>Education </li>
+<li>Mathematics</li>
+<li>Technology</li>
+<li>Engineering</li>
+<li>Science</li>
+<li>Management</li>
+</ul>
+<p>... and how they all are all inter-linked.</p>
+<p>Much of our education was based on a reductionist model. New developments in education have taken a more holistic view and use a systems thinking approach to tackle future challenges. </p>
+<p>In order for this paradigm shift to take place we need to ensure that education provides our students with the transformative skills that they will need to face their future.</p>
+<h2 id="how-do-i-keep-up-to-date-with-future-developments">How do I keep up to date with future developments?</h2>
+<h3 id="work-based">Work Based</h3>
+<p>I keep up to date with Learning Technology developments and software through emails, webpages and webinars.</p>
+<h4 id="blackboard"><a href="https://help.blackboard.com">Blackboard</a></h4>
+<ul>
+<li><a href="https://community.blackboard.com/home">Bb Community</a></li>
+</ul>
+<h4 id="jisc"><a href="https://www.jisc.ac.uk">JISC</a></h4>
+<ul>
+<li><a href="https://www.jisc.ac.uk/learning-analytics">Learning Analytics</a><ul>
+<li>monthly online updates</li>
+</ul>
+</li>
+<li><a href="https://www.jisc.ac.uk/digifest">Digifest</a></li>
+</ul>
+<h4 id="alt"><a href="https://www.alt.ac.uk/">ALT</a></h4>
+<p>Note: I am not a member</p>
+<p>ALT-J Journals are a great source of research material on all aspects of Learning Tech.</p>
+<h4 id="buddycheck"><a href="https://www.buddycheck.io/">Buddycheck</a></h4>
+<ul>
+<li><a href="https://vimeo.com/byshareworks">Useful Videos</a></li>
+</ul>
+<h4 id="other-resources-of-interest">Other resources of interest</h4>
+<p>Youtube links ...</p>
+<p>Podcasts ...</p>
+<h3 id="organisations">Organisations</h3>
+<p>I am a member of the following organisations ...</p>
+<ul>
+<li>Member of the Associations of Teachers of Mathematics (Mathematics Teachers)<ul>
+<li><a href="https://www.atm.org.uk/">https://www.atm.org.uk/</a></li>
+</ul>
+</li>
+<li>New member of Operational Research Society (including Analytics)<ul>
+<li><a href="https://www.theorsociety.com/">https://www.theorsociety.com/</a></li>
+</ul>
+</li>
+<li>Active member of an Educational NGO</li>
+</ul>
+<h3 id="books-and-magazines">Books and Magazines</h3>
+<p>Here is a selection of books that I own with regards to the topics listed above.</p>
+<p><img alt="My Books" src="books.jpg" />
+<img alt="My Books" src="books.jpg" /></p>
+<p>I regularly purchase a the following magazines</p>
+<ul>
+<li><a href="">Linux Format</a></li>
+<li><a href="">Linux Magazine</a></li>
+<li><a href="">New Scientist</a></li>
+</ul>
+<p>(Note: A lot of the content within the linux magazines, which go back to 2003, are still very relevant today)</p>
+<p>... and of course, working next to a library, I have access to a vast array of books and journals</p>
+<h2 id="a-final-thought">A final thought</h2>
+<p>On first sight the film "Moneyball" is just an enjoyable film, but on further inspection it turns out to be a great resource for understanding what analytics is all about.</p>
+<p>The opportunities for learning are all around us. As educators it is our responsibility to open up this world so that everyone can experience it fully for themselves.</p></div>
             </div>
         </div>
 
@@ -134,11 +192,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -203,8 +261,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.2.3
-Build Date UTC : 2022-04-01 10:44:12.498598+00:00
--->
